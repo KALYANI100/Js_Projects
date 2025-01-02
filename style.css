@@ -1,0 +1,274 @@
+body
+{
+    background-color: orange;
+}
+#container
+{
+    margin-left: 300px;
+    margin-top: 40px;
+    height:auto;
+    width:1115px;
+    background-color: bisque;
+    border-radius: 10px;
+   
+}
+#page
+{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 90px;
+    
+}
+#page2
+{
+    margin-left: 150px;
+    
+}
+#page button
+{
+    color: #f38e82;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    background-color: #f9f5f3;
+    padding: .8rem 1.2rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+#header
+{
+    display: flex;
+}
+#header .logo
+{
+    height:100px;
+    width:150px;
+    border-top-left-radius: 10px;
+}
+.search
+{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 75px;
+}
+.search button
+{
+    height: 35px;
+    width:100px;
+    background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+    border-color: orange;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    font-size: 15px;
+}
+.search input{
+    height: 30px;
+    width:250px;
+    font-size: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+nav{
+    margin-top: 37px;
+    margin-left: 150px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+i
+{
+    color: orange;
+}
+
+.item2
+{
+    margin-left: 15px;
+}
+#search-result
+{
+    width: 450px;
+    height: 830px;
+    background-color: white;
+    border-radius: 10px;
+}
+#leftside
+{
+    width: 450px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#copyright
+{
+    color: #918581;
+
+}
+#remain
+{
+    display: flex;
+}
+#result
+{
+    background-color:#f9f5f3;
+    width:665px;
+    height: auto;
+    
+}
+
+#result p{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#info
+{
+    display: flex;
+}
+#info
+{
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+#result #image img
+{
+    height:270px;
+    width:660px;
+}
+#serving
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#time
+{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#info button{
+    width:25px;
+    height: 25px;
+    margin-top: 19px;
+    
+    border:2px solid orange; 
+    border-radius: 50%;
+    
+    margin-left: 10px;
+}
+.book
+{
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top:17px;
+}
+#recipe-ingredients
+{
+    border-top: 1px solid orange;
+    background-color:#f9f5f3;
+    height:auto;
+    margin-top: -17px;
+    
+}
+.list{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+.list li
+{
+    margin-top: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#finish button{
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: orange;
+}
+#finish
+{
+    border-top: 1px solid orange;
+    padding: 20px;
+}
+#spinner i
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 50px;
+    animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+}
+#r1
+{
+    padding-top: 10px;
+    padding-left: 14px;
+    display: flex;
+    height: 80px;
+    background-color: rgb(245, 242, 238);
+    border-bottom: 1px solid rgb(253, 253, 252);
+
+}
+#r1-right
+{
+    margin-left: 50px;
+    padding-top: 5px;
+}
+#r1-right span{
+    font-size: 16px;
+    text-decoration: none;
+    color: #f38e82;
+    text-transform: uppercase;
+    font-family: Nunito Sans, sans-serif;
+}
+#r1-right h4{
+    
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: none;
+    color:#615551;
+    text-transform: uppercase;
+    font-family: Nunito Sans, sans-serif;
+
+}
+.im{
+   height: 70px;
+    width: 70px; 
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+#select
+{
+    background-color: pink;
+}
+.book_list
+{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+    width: 510px;
+}
